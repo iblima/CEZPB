@@ -1,0 +1,34 @@
+project:
+  type: book
+
+book:
+  title: "CEZPB"
+  author: "Rômulo Romeu da Nóbrega Alves, Alexandre Vasconcelos, Anna Karolina Borges"
+  date: "25/10/2025"
+  chapters:
+    - index.qmd
+    - apresentacao.qmd
+    - prefacio.qmd
+    - intro.qmd
+    - capitulo-2.qmd
+    - capitulo-3.qmd
+    - capitulo-4.qmd
+    - capitulo-5.qmd
+    - capitulo-6.qmd
+    - capitulo-7.qmd
+    - capitulo-8.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
